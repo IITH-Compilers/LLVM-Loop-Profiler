@@ -6,8 +6,8 @@ LLVM Loop profiler works for LLVM-IR, which gives loop-based run-time informatio
 Install LLVM from source. We are using LLVM 7.0, not tested on the other versions.
 
 * `git clone https://github.com/shalinijain58/LLVM-Loop-Profiler.git loop-profiler`
-* `cd loop-profiler && mkdir build && cd build`
-* `cmake ../`
+* `mkdir build && cd build`
+* `cmake ../loop-profiler`
 * `make `
 
 Either do `make install` after `make` or export the path of llvm binaries.
