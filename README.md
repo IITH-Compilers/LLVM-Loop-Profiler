@@ -1,5 +1,5 @@
 # LLVM-Loop-Profiler
-Loop profiler gives loop-based run-time information mainly execution time and iteration count for each individual loop of the input program.
+LLVM Loop profiler works for LLVM-IR, which gives loop-based run-time information mainly execution time and iteration count for each individual loop of the input program.
 
 ![image](images/flowGraph.png)
 ## Getting started
