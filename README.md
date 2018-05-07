@@ -7,7 +7,7 @@ Install LLVM from source. We are using LLVM 7.0, not tested on the other version
 
 * `git clone https://github.com/shalinijain58/LLVM-Loop-Profiler.git loop-profiler`
 * `mkdir build && cd build`
-* `cmake ../loop-profiler`
+* `cmake -DCMAKE_BUILD_TYPE=Release ../loop-profiler`
 * `make `
 
 Either do `make install` after `make` or export the path of llvm binaries.
