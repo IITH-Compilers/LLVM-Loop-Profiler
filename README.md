@@ -16,10 +16,10 @@ Either do `make install` after `make` or export the path of llvm binaries.
 ## How to run?
 Once `make` is successful, execute `loop profiler` in build directory to run the code. For example, `loop-profiler/ProfilerTestCases/1loop.cpp`
 
-* `./bin/clang++ -S -g -emit-llvm ../ProfilerTestCases/1loop.cpp -o ../ProfilerTestCases/1loop.ll`
-* `./bin/opt -load ./lib/LLVMLoopTimer.so -count-loops -insertstr -inserttimer -profile-loop=inner ../ProfilerTestCases/1loop.ll | ./bin/llc -filetype=obj -o ../ProfilerTestCases/1loop.o`
-* `./bin/clang++ ../ProfilerTestCases/1loop.o -o ../ProfilerTestCases/1loop.out`
-* `./../ProfilerTestCases/1loop.out`
+* `./bin/clang++ -S -g -emit-llvm ../loop-profiler/ProfilerTestCases/1loop.cpp -o ../loop-profiler/ProfilerTestCases/1loop.ll`
+* `./bin/opt -load ./lib/LLVMLoopTimer.so -count-loops -insertstr -inserttimer -profile-loop=inner ../loop-profiler/ProfilerTestCases/1loop.ll | ./bin/llc -filetype=obj -o ../loop-profiler/ProfilerTestCases/1loop.o`
+* `./bin/clang++ ../loop-profiler/ProfilerTestCases/1loop.o -o ../loop-profiler/ProfilerTestCases/1loop.out`
+* `./../loop-profiler/ProfilerTestCases/1loop.out`
 
 **First command:** Converts `.cpp` file to `.ll` (LLVM-IR) through `clang++`. You can use `clang` for `.c` files.
 
