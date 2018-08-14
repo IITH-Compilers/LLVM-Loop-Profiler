@@ -54,6 +54,7 @@ After execution it prints profiling information (for each of the loops based on 
 
 ## SPEC-CPU-2006:
 <center>hmmer and namd respectively</center>
+
  <center>This text will be center-aligned.</center> 
 
 <img src="images/hmmer.png" width="400" fig.cap="hmmer"/> <img src="images/namd.png" width="400"/>
