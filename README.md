@@ -53,7 +53,7 @@ After execution it prints profiling information (for each of the loops based on 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
 ## SPEC-CPU-2006:
-<center>hmmer and namd respectively</center>
+
 
  <center>This text will be center-aligned.</center> 
 
