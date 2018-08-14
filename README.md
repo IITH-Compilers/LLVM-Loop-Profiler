@@ -52,7 +52,7 @@ After execution it prints profiling information (for each of the loops based on 
 * **[number of times loop executed]:** The total number of times entire loop executed, it is not the iteration count of the loop. 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
-* **SPEC-CPU-2006:**
+## SPEC-CPU-2006:
 ![image](images/hmmer.png)
 ![image](images/namd.png)
 ![image](images/povray.png)
