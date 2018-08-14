@@ -54,11 +54,11 @@ After execution it prints profiling information (for each of the loops based on 
 
 ## SPEC-CPU-2006:
 <img src="images/hmmer.png" width="400"/> <img src="images/namd.png" width="400"/>
-<img src="images/povray.png" width="450"/> <img src="images/xalancbmk.png" width="450"/>
+<img src="images/povray.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
 ## SPEC-CPU-2017:
-<img src="images/imagick.png" width="450"/> <img src="images/omnetpp.png" width="450"/>
-<img src="images/partest.png" width="450"/> <img src="images/xalancbmk.png" width="450"/>
+<img src="images/imagick.png" width="400"/> <img src="images/omnetpp.png" width="400"/>
+<img src="images/partest.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
 ##
 **Contributers:**
