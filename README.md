@@ -55,22 +55,22 @@ After execution it prints profiling information (for each of the loops based on 
 ## SPEC-CPU-2006:
 <figure>
   <img src="images/hmmer.png" alt=".." title="hmmer" />
-  <figcaption>Optional title</figcaption>
+  <figcaption>hmmer</figcaption>
 </figure>
 
 <figure>
   <img src="images/namd.png" alt=".." title="namd" />
-  <figcaption>Optional title</figcaption>
+  <figcaption>namd</figcaption>
 </figure>
 
 <figure>
   <img src="images/povray.png" alt=".." title="povray" />
-  <figcaption>Optional title</figcaption>
+  <figcaption>povray</figcaption>
 </figure>
 
 <figure>
   <img src="images/xalancbmk.png" alt=".." title="xalancbmk" />
-  <figcaption>Optional title</figcaption>
+  <figcaption>xalancbmk</figcaption>
 </figure>
 
 ## SPEC-CPU-2017:
