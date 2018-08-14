@@ -54,7 +54,7 @@ After execution it prints profiling information (for each of the loops based on 
 
 ## SPEC-CPU-2006:
 <figure>
-  <img src="images/hmmer.png" width="400" fig.cap="hmmer"/> <img src="images/namd.png" width="400"/>
+  <img src="images/hmmer.png" width="300" fig.cap="hmmer"/> <img src="images/namd.png" width="300"/>
 </figure>
   <img src="images/povray.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
