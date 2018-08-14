@@ -70,7 +70,7 @@ After execution it prints profiling information (for each of the loops based on 
 
 #### partest and xalancbmk respectively
 
-<img src="partest_spec2017_inner.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
+<img src="partest_spec2017_inner.png" width="400"/> <img src="xalancbmk_spec2017_inner" width="400"/>
 
 ##
 **Contributers:**
