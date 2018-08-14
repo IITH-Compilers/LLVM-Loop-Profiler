@@ -74,8 +74,8 @@ After execution it prints profiling information (for each of the loops based on 
 </figure>
 
 ## SPEC-CPU-2017:
-|[![image](images/imagick_spec2017_inner.png)](imagick)|[![image](images/omnetpp_spec2017_inner.png)](omnetpp)
-|[![image](images/partest_spec2017_inner.png)](partest)|[![image](images/xalancbmk_spec2017_inner.png)]{xalancbmk)
+| [![image](images/imagick_spec2017_inner.png)](imagick) | [![image](images/omnetpp_spec2017_inner.png)](omnetpp) |
+|[![image](images/partest_spec2017_inner.png)](partest)|[![image](images/xalancbmk_spec2017_inner.png)](xalancbmk) |
 
 ##
 **Contributers:**
