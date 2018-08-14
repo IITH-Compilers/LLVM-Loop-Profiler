@@ -57,5 +57,13 @@ After execution it prints profiling information (for each of the loops based on 
 ![image](images/namd.png)
 ![image](images/povray.png)
 ![image](images/xalancbmk.png)
+
+## SPEC-CPU-2017:
+![image](images/imagick_spec2017_inner.png)
+![image](images/omnetpp_spec2017_inner.png)
+![image](images/parest_spec2017_inner.png)
+![image](images/xalancbmk_spec2017_inner.png)
+
+##
 **Contributers:**
 Shalini Jain, Pankaj Kukreja, Kamlesh Bhalui
