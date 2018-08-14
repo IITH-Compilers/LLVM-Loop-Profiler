@@ -53,7 +53,7 @@ After execution it prints profiling information (for each of the loops based on 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
 ## SPEC-CPU-2006:
-**hmmer and namd respectively**
+<center>**hmmer and namd respectively**</center>
 
 <img src="images/hmmer.png" width="400" fig.cap="hmmer"/> <img src="images/namd.png" width="400"/>
 
@@ -65,11 +65,11 @@ After execution it prints profiling information (for each of the loops based on 
 
 **imagick and omnetpp respectively**
 
-<img src="images/imagick.png" width="50"/> <img src="images/omnetpp.png" width="100"/>
+<img src="imagick_spec2017_inner.png" width="400"/> <img src="omnetpp_spec2017_inner.png" width="400"/>
 
 **partest and xalancbmk respectively**
 
-<img src="images/partest.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
+<img src="partest_spec2017_inner.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
 ##
 **Contributers:**
