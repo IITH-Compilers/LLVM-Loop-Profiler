@@ -66,11 +66,11 @@ After execution it prints profiling information (for each of the loops based on 
 
 #### imagick and omnetpp respectively
 
-<img src="images/imagick_spec2017.png" width="400"/> <img src="images/omnetpp_spec2017.png" width="400"/>
+<img src="images/imagick_spec2017.png" width="300"/> <img src="images/omnetpp_spec2017.png" width="400"/>
 
 #### partest and xalancbmk respectively
 
-<img src="images/partest_spec2017.png" width="400"/> <img src="images/xalancbmk_spec2017" width="400"/>
+<img src="images/partest_spec2017.png" width="400"/> <img src="images/xalancbmk_spec2017.png" width="400"/>
 
 ##
 **Contributers:**
