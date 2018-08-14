@@ -54,7 +54,7 @@ After execution it prints profiling information (for each of the loops based on 
 
 ## SPEC-CPU-2006:
 ![image](images/hmmer.png)
-* hmmer *
+{:.image-caption}
 ![image](images/namd.png)
 ![image](images/povray.png)
 ![image](images/xalancbmk.png)
