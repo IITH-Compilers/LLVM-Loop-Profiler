@@ -37,7 +37,7 @@ defaults to `all`. You can apply other optimization flags as well based on requi
 
 **Fourth command:** Runs the profiled version and produces run-time information along with program output.
 
-
+88
 ## Test Cases
 Few sample test cases are provided in the directory `ProfilerTestCases`.
 ## Profile Output
@@ -53,10 +53,9 @@ After execution it prints profiling information (for each of the loops based on 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
 ## SPEC-CPU-2006:
-<figure>
-  <img src="images/hmmer.png" width="300" fig.cap="hmmer"/> <img src="images/namd.png" width="300"/>
-</figure>
-  <img src="images/povray.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
+* **hmmer and namd respectively
+<img src="images/hmmer.png" width="400" fig.cap="hmmer"/> <img src="images/namd.png" width="400"/>
+<img src="images/povray.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
 ## SPEC-CPU-2017:
 <img src="images/imagick.png" width="400"/> <img src="images/omnetpp.png" width="400"/>
