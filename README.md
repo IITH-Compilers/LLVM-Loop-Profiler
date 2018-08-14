@@ -75,7 +75,7 @@ After execution it prints profiling information (for each of the loops based on 
 
 ## SPEC-CPU-2017:
 ![image](images/imagick_spec2017_inner.png)
-image-caption {
+.image-caption {
   text-align: center;
   font-size: .8rem;
   color: light-grey;
