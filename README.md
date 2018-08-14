@@ -54,14 +54,24 @@ After execution it prints profiling information (for each of the loops based on 
 
 ## SPEC-CPU-2006:
 <figure>
-  <img src="images/hmmer.png" alt=".." title="Optional title" />
+  <img src="images/hmmer.png" alt=".." title="hmmer" />
   <figcaption>Optional title</figcaption>
 </figure>
-![image](images/hmmer.png)
-{:.image-caption}
-![image](images/namd.png)
-![image](images/povray.png)
-![image](images/xalancbmk.png)
+
+<figure>
+  <img src="images/namd.png" alt=".." title="namd" />
+  <figcaption>Optional title</figcaption>
+</figure>
+
+<figure>
+  <img src="images/povray.png" alt=".." title="povray" />
+  <figcaption>Optional title</figcaption>
+</figure>
+
+<figure>
+  <img src="images/xalancbmk.png" alt=".." title="xalancbmk" />
+  <figcaption>Optional title</figcaption>
+</figure>
 
 ## SPEC-CPU-2017:
 ![image](images/imagick_spec2017_inner.png)
