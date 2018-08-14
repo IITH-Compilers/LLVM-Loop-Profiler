@@ -53,6 +53,10 @@ After execution it prints profiling information (for each of the loops based on 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
 ## SPEC-CPU-2006:
+<figure>
+  <img src="images/hmmer.png" alt=".." title="Optional title" />
+  <figcaption>Optional title</figcaption>
+</figure>
 ![image](images/hmmer.png)
 {:.image-caption}
 ![image](images/namd.png)
