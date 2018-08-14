@@ -55,10 +55,7 @@ After execution it prints profiling information (for each of the loops based on 
 ## SPEC-CPU-2006:
 <figure>
   <img src="images/hmmer.png" alt=".." title="hmmer" />
-  <font size="2">
   <figcaption>hmmer</figcaption>
-  </figcaption>
-  </font>
 </figure>
 
 <figure>
@@ -77,10 +74,8 @@ After execution it prints profiling information (for each of the loops based on 
 </figure>
 
 ## SPEC-CPU-2017:
-![image](images/imagick_spec2017_inner.png)
-![image](images/omnetpp_spec2017_inner.png)
-![image](images/partest_spec2017_inner.png)
-![image](images/xalancbmk_spec2017_inner.png)
+|[![image](images/imagick_spec2017_inner.png)](imagick)|[![image](images/omnetpp_spec2017_inner.png)](omnetpp)
+|[![image](images/partest_spec2017_inner.png)](partest)|[![image](images/xalancbmk_spec2017_inner.png)]{xalancbmk)
 
 ##
 **Contributers:**
