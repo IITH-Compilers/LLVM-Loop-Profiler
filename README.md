@@ -55,7 +55,10 @@ After execution it prints profiling information (for each of the loops based on 
 ## SPEC-CPU-2006:
 <figure>
   <img src="images/hmmer.png" alt=".." title="hmmer" />
+  <font size="2">
   <figcaption>hmmer</figcaption>
+  </figcaption>
+  </font>
 </figure>
 
 <figure>
@@ -75,11 +78,6 @@ After execution it prints profiling information (for each of the loops based on 
 
 ## SPEC-CPU-2017:
 ![image](images/imagick_spec2017_inner.png)
-.image-caption {
-  text-align: center;
-  font-size: .8rem;
-  color: light-grey;
-}
 ![image](images/omnetpp_spec2017_inner.png)
 ![image](images/partest_spec2017_inner.png)
 ![image](images/xalancbmk_spec2017_inner.png)
