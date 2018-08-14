@@ -53,7 +53,7 @@ After execution it prints profiling information (for each of the loops based on 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
 ## SPEC-CPU-2006:
-<img src="images/hmmer.png" width="400" caption="hmmer"/> <img src="images/namd.png" width="400"/>
+<img src="images/hmmer.png" width="400" figcaption="hmmer"/> <img src="images/namd.png" width="400"/>
 <img src="images/povray.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
 ## SPEC-CPU-2017:
