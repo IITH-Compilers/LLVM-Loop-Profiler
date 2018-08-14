@@ -53,30 +53,12 @@ After execution it prints profiling information (for each of the loops based on 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
 ## SPEC-CPU-2006:
-<img src="images/hmmer.png" width="250"/>
-<figure>
-  <img src="images/hmmer.png" alt=".." title="hmmer" />
-  <figcaption>hmmer</figcaption>
-</figure>
-
-<figure>
-  <img src="images/namd.png" alt=".." title="namd" />
-  <figcaption>namd</figcaption>
-</figure>
-
-<figure>
-  <img src="images/povray.png" alt=".." title="povray" />
-  <figcaption>povray</figcaption>
-</figure>
-
-<figure>
-  <img src="images/xalancbmk.png" alt=".." title="xalancbmk" />
-  <figcaption>xalancbmk</figcaption>
-</figure>
+<img src="images/hmmer.png" width="450"/> <img src="images/namd.png" width="450"/>
+<img src="images/povray.png" width="450"/> <img src="images/xalancbmk.png" width="450"/>
 
 ## SPEC-CPU-2017:
-| [![image](images/imagick_spec2017_inner.png)](imagick) | [![image](images/omnetpp_spec2017_inner.png)](omnetpp) |
-| [![image](images/partest_spec2017_inner.png)](partest) | [![image](images/xalancbmk_spec2017_inner.png)](xalancbmk) |
+<img src="images/imagick.png" width="450"/> <img src="images/omnetpp.png" width="450"/>
+<img src="images/partest.png" width="450"/> <img src="images/xalancbmk.png" width="450"/>
 
 ##
 **Contributers:**
