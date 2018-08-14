@@ -52,24 +52,23 @@ After execution it prints profiling information (for each of the loops based on 
 * **[number of times loop executed]:** The total number of times entire loop executed, it is not the iteration count of the loop. 
 * **[total clock cycles]:** The total number of clock cycles a loop is taking during the execution of the whole program.
 
-## SPEC-CPU-2006:
+### SPEC-CPU-2006:
 
-
- <center>This text will be center-aligned.</center> 
+#### hmmer and namd respectively
 
 <img src="images/hmmer.png" width="400" fig.cap="hmmer"/> <img src="images/namd.png" width="400"/>
 
-**povray and xalancbmk respectively**
+ #### povray and xalancbmk respectively
 
 <img src="images/povray.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
-## SPEC-CPU-2017:
+### SPEC-CPU-2017:
 
-**imagick and omnetpp respectively**
+#### imagick and omnetpp respectively
 
 <img src="imagick_spec2017_inner.png" width="400"/> <img src="omnetpp_spec2017_inner.png" width="400"/>
 
-**partest and xalancbmk respectively**
+#### partest and xalancbmk respectively
 
 <img src="partest_spec2017_inner.png" width="400"/> <img src="images/xalancbmk.png" width="400"/>
 
