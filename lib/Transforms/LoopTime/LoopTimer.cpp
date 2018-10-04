@@ -204,17 +204,17 @@ namespace {
                 t->setInitializer(consgt);
 
 
-                //Declare string "%d," for printf function argument
-                ArrayType *ArrayTy_0 = ArrayType::get(IntegerType::get(M.getContext(), 8), 4);
+                //Declare string "%lld," for printf function argument
+                ArrayType *ArrayTy_0 = ArrayType::get(IntegerType::get(M.getContext(), 8), 6);
                 GlobalVariable *time = new GlobalVariable(M, ArrayTy_0, true, GlobalValue::ExternalLinkage, 0, ".counter");
-                Constant *format = ConstantDataArray::getString(M.getContext(), "%d,", true);
+                Constant *format = ConstantDataArray::getString(M.getContext(), "%lld,", true);
                 time->setInitializer(format);
 
 
-                // Declare string "%d\n" for printf function argument
-                ArrayType *arrayType = ArrayType::get(IntegerType::get(M.getContext(), 8), 4);
+                // Declare string "%lld\n" for printf function argument
+                ArrayType *arrayType = ArrayType::get(IntegerType::get(M.getContext(), 8), 6);
                 GlobalVariable *str = new GlobalVariable(M, arrayType, true, GlobalValue::ExternalLinkage, 0, ".str1");
-                Constant *format2 = ConstantDataArray::getString(M.getContext(), "%d\x0A", true);
+                Constant *format2 = ConstantDataArray::getString(M.getContext(), "%lld\x0A", true);
                 str->setInitializer(format2);
 
 
@@ -274,11 +274,11 @@ namespace {
 
                 //Accessing printf Format for counter
                 GlobalVariable *printfFormatCounter = M.getGlobalVariable(".counter");
-                Constant *counterFormatGEP = ConstantExpr::getGetElementPtr(ArrayType::get(IntegerType::get(M.getContext(), 8), 4), printfFormatCounter,zeroVector);
+                Constant *counterFormatGEP = ConstantExpr::getGetElementPtr(ArrayType::get(IntegerType::get(M.getContext(), 8), 6), printfFormatCounter,zeroVector);
 
                 //Accesing print Format for Time
                 GlobalVariable *pFormat = M.getGlobalVariable(".str1");
-                Constant *timerFormatGEP = ConstantExpr::getGetElementPtr(ArrayType::get(IntegerType::get(M.getContext(), 8), 4), pFormat, zeroVector);
+                Constant *timerFormatGEP = ConstantExpr::getGetElementPtr(ArrayType::get(IntegerType::get(M.getContext(), 8), 6), pFormat, zeroVector);
 
                 // Get loop names array
                 GlobalVariable *loop_names = M.getGlobalVariable(".loopnames");
