@@ -39,7 +39,7 @@ namespace {
         public:
             static char ID;
             CountLoops():LoopPass(ID){}
-            void getAnalysisUsage(AnalysisUsage&AU)const ;
+            void getAnalysisUsage(AnalysisUsage&AU) const override;
             bool runOnLoop(Loop *L,LPPassManager&) override;
         };
     }
